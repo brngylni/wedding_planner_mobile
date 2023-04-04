@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="60dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Choose wedding date and time"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/plan_date"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Date"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/edit_text_style"/>
+
+    <EditText
+        android:id="@+id/plan_time"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Time"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/edit_text_style"/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="90dp"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="225dp"
+        android:layout_gravity="center"
+        android:background="@drawable/plan_date"
+        android:alpha="0.8"/>
+</LinearLayout>

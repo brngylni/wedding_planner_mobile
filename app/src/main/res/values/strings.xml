@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Wedding_Planner</string>
+    <string-array name="genders">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="60dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. How many guests will be at your wedding?"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/black"/>
+
+    <RadioGroup
+        android:id="@+id/plan_guest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="56.4dp">
+        <RadioButton
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Less than 200"
+            android:layout_marginRight="19dp"/>
+        <RadioButton
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="200 - 500"/>
+        <RadioButton
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="500 - 1000"/>
+    </RadioGroup>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="63dp"/>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="225dp"
+        android:layout_gravity="center"
+        android:background="@drawable/plan_guests"
+        android:alpha="0.8"/>
+</LinearLayout>

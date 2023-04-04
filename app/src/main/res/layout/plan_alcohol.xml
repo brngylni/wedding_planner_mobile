@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="60dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Will the wedding be with alcohol?"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/black"/>
+
+    <RadioGroup
+        android:id="@+id/plan_alcohol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="56.4dp">
+        <RadioButton
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+            android:layout_marginRight="19dp"/>
+        <RadioButton
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="No"/>
+    </RadioGroup>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="159dp"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="225dp"
+        android:layout_gravity="center"
+        android:background="@drawable/plan_alcohol"
+        android:alpha="0.8"/>
+</LinearLayout>
